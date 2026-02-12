@@ -1,6 +1,6 @@
 #!/bin/bash
 
-array=("rrr","ssss","qqqq")
+array=("rrr" "ssss" "qqqq")
 
 echo "first movie is:${array[0]}"
 echo "second movie is:${array[1]}"
