@@ -3,8 +3,8 @@
 person1=$1
 person2=$2
 
-echo "person1:hiiiiii...,person2"
-echo "person2:hiiiii....how r u,person1"
-echo "person1:iam fine,how is your job person2"
-echo "person2:good,butiam upadating with devopsperson1"
+echo "$1:hiiiiii...,$2"
+echo "$2:hiiiii....how r u,$1"
+echo "$1:iam fine,how is your job $2"
+echo "$2:good,butiam upadating with devops $1"
 
