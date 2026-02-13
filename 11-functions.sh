@@ -11,7 +11,7 @@ VALIDATE(){
         exit 1  
     fi      
 }
-if [ $USERID -ne 0]
+if [ $USERID -ne 0 ]
 
 then 
 
