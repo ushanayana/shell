@@ -8,9 +8,9 @@ LOGFILE=/tmp/$SCRIPT_NAME-$TIMESTAMP.log
 VALIDATE(){
     if [ $1 -eq 0 ]
     then 
-        echo "installation of $2 success"
+        echo "$2 success"
     else 
-        echo "installation of $1 is failure"
+        echo "$1 is failure"
         exit 1  
     fi      
 }
