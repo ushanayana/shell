@@ -3,14 +3,14 @@
 
 USERID=$(id -u)
 
-if [ $USERID -eq 0 ]
+if [ $USERID -ne 0 ]
 
 then
-    echo "you are asuper user,proceed"
+    echo "you are not a user,proceed"
 
 else
 
-    echo "you are nota super user"
+    echo "you are a super user"
 
 
 fi 
