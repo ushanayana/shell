@@ -27,3 +27,15 @@ else
     exit 1
 fi        
 
+dnf install git -y 
+
+if [ $? -eq 0 ]
+
+then
+    echo "installation of git is success"
+
+else 
+    echo "installation of git is failure"
+    exit 1
+fi        
+
