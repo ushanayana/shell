@@ -9,6 +9,6 @@ echo "the given number $number is greater than 10"
 
 else
 
-echo "the given number $number is greater than 10"
+echo "the given number $number is less than 10"
 
 fi
