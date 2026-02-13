@@ -15,7 +15,7 @@ else
 
 fi 
 
-dnf install mysqll -y 
+dnf install mysql -y 
 
 if [ $? -eq 0 ]
 
