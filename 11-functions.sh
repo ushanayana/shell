@@ -12,9 +12,9 @@ N="\e[0m"
 VALIDATE(){
     if [ $1 -eq 0 ]
     then 
-        echo -e "$2 $G success"
+        echo -e "$2 $G success $N"
     else 
-        echo -e"$1 is $R failure"
+        echo -e"$1 is $R failure $N"
         exit 1  
     fi      
 }
@@ -22,11 +22,11 @@ if [ $USERID -ne 0 ]
 
 then 
 
-    echo -e "$R you r not a super user"
+    echo -e "$R you r not a super user $N"
     exit 1
 else
 
-    echo -e "$G you r super user"
+    echo -e "$G you r super user $N"
 fi
 
 
